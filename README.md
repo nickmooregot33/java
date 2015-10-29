@@ -1,1 +1,3 @@
-Members:\n Ferris, Tim \n Moore, Nick
+Members:
+	Ferris, Tim 
+	Moore, Nick
