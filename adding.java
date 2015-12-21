@@ -21,7 +21,8 @@ public class adding{
     /*initialize our variables*/
     System.out.print("Enter first integer: ");
     number1 = input.nextInt(); 	//looks like an iterator, but we're using it like scanf("%d",&number1) here, complete with 
-    							//killing the program when the user hits something other than an int
+    							              //killing the program when the user hits something other than an int
+    							              //I would expect it's to use to make input validation loops easier.
     System.out.print("Enter second integer: ");
     number2 = input.nextInt(); //same
     
