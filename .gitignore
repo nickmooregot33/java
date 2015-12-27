@@ -10,3 +10,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.metadata
+.recommenders
+hello_world/.classpath
+hello_world/.project
+hello_world/.settings/org.eclipse.jdt.core.prefs

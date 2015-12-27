@@ -9,7 +9,7 @@
 import java.util.Scanner; //importing class Scanner
 
 public class adding{
-  public static void main{
+  public static void main(String args[]) {
     //create scanner object to scan input in from command window
     Scanner input = new Scanner(System.in);//System.in appears to be STD_IN or something similar
     
