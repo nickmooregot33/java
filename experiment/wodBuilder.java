@@ -10,6 +10,8 @@
  
 import java.util.Date;
 import java.util.Random;  //for randomly picking exercises
+import java.util.TimeZone;
+import java.util.Locale;
 
 public class wodBuilder{
   private final String warmups[] = {
@@ -38,14 +40,14 @@ public class wodBuilder{
                                       "goblet-squats",
                                       "push-ups",
                                       "kettlebell swings",
-                                      "
+                                      ""
                                       };
   private final String cooldowns[] = {
                                         "ham-stretch",
                                         "jefferson curls",
                                         "hip stretch",
                                         "neck stretch",
-                                        "
+                                        ""
                                         };
 
   private String warmup[3];
@@ -59,19 +61,28 @@ public class wodBuilder{
   private int cooldownNum;
   private int minutes;
   
-  private Date today;
+  private TimeZone zone;
+  private Locale localArea;
+  private Calendar today;
   private Random numChooser;
   
   public wodBuilder(){
     //initialize the date and the random number generator
-    today = new Date();
+    setDate();
+    setNumChooser;
     
     //first pick the length of the workout
     //then pick the number of exercises in strength which will be 1, 2, or 3
     //cooldown should be 2 or 3, same for warmup
   }
-  private buildWod(){
-  
+  private void setDate(){
+   zone = TimeZone.getDefault();
+   localArea = Locale.getDefault();
+   today = new Calendar(zone,localArea);
   }
+  private void setNumChooser(){
+   
+  }
+  
 }
 
